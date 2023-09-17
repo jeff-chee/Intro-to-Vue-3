@@ -7,5 +7,7 @@ app.component("product-details", {
   },
   template:
     /*html*/
-    `<div>{{details}}</div>`,
+    `<ul>
+    <li v-for="detail in details">{{ detail }}</li>
+  </ul>`,
 });
